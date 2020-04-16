@@ -1,0 +1,138 @@
+.container{
+    color: #41414d;
+    width:100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+
+.inter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 930px;
+}
+.saudation {
+   
+    line-height: 1,5;
+
+}
+
+.saudation p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button_add {
+        width: 60px;
+        height: 60px;
+        background: #6C0000 ;
+        color: white;
+        font-weight: 400;
+        margin-top: 16px;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.17);
+        border-radius: 10px;
+        transition: filter 0.2s;
+        margin-right: 9px;
+    }
+
+
+
+.head_prod {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 12px;
+    color: #6C0000;
+    font-weight: lighter;
+}
+
+.lista {
+    display: flex;
+    width: 100%;
+    max-width: 930px;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    color: rgb(95, 95, 95);
+    background: #d4d4d4;
+    border-radius: 9px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.17);
+    padding: 10px;
+    margin: 7px;
+}
+
+.details {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#photo_produto {
+    margin-right: 30px;
+}
+
+
+.details h4 {
+    /* margin-bottom: 5px; */
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.safra {
+    font-size: 29px;
+    display: flex;
+    padding-left: 35px;
+    font-weight: 700;
+    color: rgb(189, 189, 189);
+    
+}
+
+#trash {
+    margin: auto;
+    position: relative;
+    right: 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.17);
+    padding: 1px;
+    border: none;
+    background: rgb(182, 181, 181);
+    
+    font-weight: 700; 
+}
+
+#trash:hover{
+    margin: auto;
+    position: relative;
+    right: 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.17);
+    padding: 1px;
+    border: none;
+    background: #6C0000;
+    color: white;
+    color: white;
+    font-weight: 700; 
+}

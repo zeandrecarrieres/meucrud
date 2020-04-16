@@ -3,7 +3,7 @@ exports.up = function(knex) {
     return knex.schema.createTable('products', function (table) {
         table.increments()
 
-        table.string('Productor').notNullable()
+        table.string('productor').notNullable()
         table.string('wine').notNullable()
         table.string('harvest').notNullable()
         table.string('type').notNullable()
